@@ -39,7 +39,7 @@ You can start discussion and ask any question related with development in [Devel
     mkdir "C:\Users\[USER_NAME]\source\flilia\backend"
     cd "C:\Users\[USER_NAME]\source\flilia\backend"
     ```
-3. Download the files below into the folder you just created `\flilia\backend\...`:
+3. Download files below into the folder you just created `\flilia\backend\...`:
     - <a download="docker-compose.yaml" href="docker-compose.yaml">docker-compose.yaml</a>
     - <a download="pull-all-changes.ps1" href="pull-all-changes.ps1">pull-all-changes.ps1</a>
     - <a download="tye.yaml" href="tye.yaml">tye.yaml</a>
@@ -49,7 +49,7 @@ You can start discussion and ask any question related with development in [Devel
 
     git clone [PROJECT_NAME]
     ```
-5. Install all dependencies. This command will download all infrastructure services ([Postgres][postgres], [PgAdmin][pgadmin], [Seq][seq], [Elasticsearch][elasticsearch] and [Redis][redis] images) and setup it via docker:
+5. Install all dependencies. This command will download all infrastructure services ([Postgres][postgres], [PgAdmin][pgadmin], [Seq][seq], [Elasticsearch][elastic] and [Redis][redis] images) and setup it via docker:
     ```shell
     docker-compose up -d
     ```
@@ -63,10 +63,13 @@ For the explore the code and debug the application we recommend you install one 
     Upon running the installer, select the following workloads depending on the apps you intend to test or work with:
     - .NET cross-platform development
     - Azure development (Optional) - It is optional but recommended in case you want to deploy to Docker hosts in Azure or use any other infrastructure in Azure.
+
+    It is also recommended to install extensions below for VS:
+    - ReSharper
     ```
 - [Visual Studio Code][vscode]
     ```
-    It is also recommended to install next extensions for VS Code:
+    It is also recommended to install extensions below for VS Code:
     - C# (id: ms-dotnettools.csharp)
     - Docker (id: ms-azuretools.vscode-docker)
     ```
@@ -127,36 +130,21 @@ There are also additional eBooks focusing on Containers/Docker lifecycle (DevOps
 - [Containers Lifecycle & CI/CD][dockerlifecycleebook]
 
 This guides will help you get started with installing and setting up the languages and tools you need to develop on Windows or Windows Subsystem for Linux:
-
-- [Get started with C#][csharp].
-    Get started building apps using C# and .NET Core.
-- [Get started with Docker Desktop for Windows][dockerdocs]
-    Create remote development containers with support from Visual Studio, VS Code, .NET, Windows Subsystem for Linux, or a variety of Azure services.
-- [Visual Studio][vsdocs]
-    An integrated development environment that you can use to edit, debug, build code, and publish apps, including compilers, intellisense code completion, and many more features.
-- [Visual Studio Code][vscodedocs]
-    A lightweight source code editor with built-in support for JavaScript, TypeScript, Node.js, a rich ecosystem of extensions (C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
-- [Azure][azuredocs]
-A complete cloud platform to host your existing apps and streamline new development. Azure services integrate everything you need to develop, test, deploy, and manage your apps.
-- [.NET][netdocs]
-    An open source development platform with tools and libraries for building any type of app, including web, mobile, desktop, gaming, IoT, cloud, and microservices.
-- [Windows Terminal][terminal]
-    Customize your terminal environment to work with multiple command line shells.
-- [GIT][gitdocs]
-    Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-- [TYE][tye]
-    Tye is a tool that makes developing, testing, and deploying microservices and distributed applications easier.
-- [Postgres][postgres]
-    PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
-- [PgAdmin][pgadmin]
-    PostgreSQL Tools for Windows, Mac, Linux and the Web.
-- [Seq][seq]
-    Application logs are the most useful data available for detecting and solving a wide range of production issues and outages.
-- [Elasticsearch][elastic]
-    Elasticsearch is a search engine based on the Lucene library.
-- [Redis][redis]
-    Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker.
-- [Popular tutorials, courses, and code samples][popular]
+- [Get started with C#][csharp]. Get started building apps using C# and .NET Core.
+- [Get started with Docker Desktop for Windows][dockerdocs]. Create remote development containers with support from Visual Studio, VS Code, .NET, Windows Subsystem for Linux, or a variety of Azure services.
+- [Visual Studio][vsdocs]. An integrated development environment that you can use to edit, debug, build code, and publish apps, including compilers, intellisense code completion, and many more features.
+- [Visual Studio Code][vscodedocs]. A lightweight source code editor with built-in support for JavaScript, TypeScript, Node.js, a rich ecosystem of extensions (C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+- [Azure][azuredocs]. A complete cloud platform to host your existing apps and streamline new development. Azure services integrate everything you need to develop, test, deploy, and manage your apps.
+- [.NET][netdocs]. An open source development platform with tools and libraries for building any type of app, including web, mobile, desktop, gaming, IoT, cloud, and microservices.
+- [Windows Terminal][terminal]. Customize your terminal environment to work with multiple command line shells.
+- [GIT][gitdocs]. Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+- [TYE][tye]. Tye is a tool that makes developing, testing, and deploying microservices and distributed applications easier.
+- [Postgres][postgres]. PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
+- [PgAdmin][pgadmin]. PostgreSQL Tools for Windows, Mac, Linux and the Web.
+- [Seq][seq]. Application logs are the most useful data available for detecting and solving a wide range of production issues and outages.
+- [Elasticsearch][elastic]. Elasticsearch is a search engine based on the Lucene library.
+- [Redis][redis]. Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker.
+- [Popular tutorials, courses, and code samples][. 
 
 #
 [developers-team]: https://github.com/orgs/flilia/teams/developers-team

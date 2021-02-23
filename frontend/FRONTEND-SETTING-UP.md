@@ -7,7 +7,7 @@
 ## <a name="question"></a> Got a Question or Problem?
 You can start discussion and ask any question related with development in [Developers team][developers-team] 
 
-## <a name="apps"></a> List of available frontend apps
+## <a name="apps"></a> List of available frontend repositories
 - [Flilia SPA: main][flilia-main-client-spa]
 - [Flilia SPA: about][flilia-about-client-spa]
 - [Flilia SPA: support][flilia-support-client-spa]
@@ -47,7 +47,7 @@ You can start discussion and ask any question related with development in [Devel
 #### Set up your development environment
 - We recommend you install [Visual Studio Code][vscode]
     ```
-    It is also recommended to install next extensions for VS Code:
+    It is also recommended to install extensions below for VS Code:
     - Angular Language Service (id: angular.ng-template)
     - Visual Studio IntelliCode (id: visualstudioexptteam.vscodeintellicode)
     - SCSS Formatter (id: sibiraj-s.vscode-scss-formatter)
@@ -66,16 +66,11 @@ SPA Support: "http://localhost:4201"
 
 This guides will help you get started with installing and setting up the languages and tools you need to develop on Windows or Windows Subsystem for Linux:
 
-- [Get started with NodeJS][nodejsdocs]
-    Install NodeJS and get your development environment setup on Windows or Windows Subsystem for Linux.
-- [Get started with Angular][angular]
-    Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.
-- [Windows Terminal][terminal]
-    Customize your terminal environment to work with multiple command line shells.
-- [Visual Studio Code][vscodedocs]
-    A lightweight source code editor with built-in support for JavaScript, TypeScript, Node.js, a rich ecosystem of extensions (C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
-- [GIT][gitdocs]
-    Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+- [Get started with NodeJS][nodejsdocs]. Install NodeJS and get your development environment setup on Windows or Windows Subsystem for Linux.
+- [Get started with Angular][angular]. Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.
+- [Windows Terminal][terminal]. Customize your terminal environment to work with multiple command line shells.
+- [Visual Studio Code][vscodedocs]. A lightweight source code editor with built-in support for JavaScript, TypeScript, Node.js, a rich ecosystem of extensions (C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+- [GIT][gitdocs]. Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 #
 [developers-team]: https://github.com/orgs/flilia/teams/developers-team/

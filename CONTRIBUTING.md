@@ -1,5 +1,5 @@
 # Contributing to Flilia
-We would love for you to contribute to Flilia and help make it even better than it is today! As a contributor, here are the guidelines we would like you to follow:
+We would love you to contribute to Flilia and help make it even better than it is today! As a contributor, here are guidelines we would like you to follow:
 
 - [Question or Problem?](#question)
 - [Submission Guidelines](#submit)
@@ -56,7 +56,7 @@ The `body` is mandatory for all commits except for those of type "docs". When th
 
 Any line of the commit message cannot be longer than 100 characters.
 
-##### <a name="commitMessageHeaderFormat"></a> Commit Message Header
+#### <a name="commitMessageHeaderFormat"></a> Commit Message Header
 ```html
 Example: <Fix: Remove dublicates in css (AB#526)>
 
@@ -91,7 +91,7 @@ The `<Type>` and `<Summary>` fields are mandatory, `(<Scope>)` field is optional
 - optionally add related pull requests numbers if exist: (#242)
 - separate many relations with commas: (AB#526, #242)
 
-##### <a name="commitMessageBodyFormat"></a> Commit message body
+#### <a name="commitMessageBodyFormat"></a> Commit message body
 Just as in the summary, use the imperative, present tense: "fix" not "fixed" nor "fixes".
 
 Explain the motivation for the change in the commit message body. This commit message should explain why you are making the change. You can include a comparison of the previous behavior with the new behavior in order to illustrate the impact of the change.
