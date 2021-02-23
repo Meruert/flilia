@@ -1,0 +1,40 @@
+services:
+- name: AccountService
+  project: flilia.services.identity\Flilia.Services.Identity\src\Flilia.Services.Identity.Api\Flilia.Services.Identity.Api.csproj
+  bindings:
+    - port: 5000
+
+- name: ProfileService
+  project: flilia.services.profile\Rnsuite.Services.Profile\Profile.Api\Profile.Api.csproj
+  bindings:
+    - port: 5010
+
+- name: PostService
+  project: flilia.services.post\src\Flilia.Services.Post.Api\Flilia.Services.Post.Api.csproj
+  bindings:
+    - port: 5011
+
+- name: SharedService
+  project: flilia.services.shared\src\WebApi\WebApi.csproj
+  bindings:
+    - port: 5015
+
+- name: UserService
+  project: flilia.services.identity\Flilia.Services.Identity\src\Identity.WebApi\Identity.WebApi.csproj
+  bindings:
+    - port: 5017
+
+- name: StorageService
+  project: flilia.services.storage\src\Storage.Api\Storage.Api.csproj
+  bindings:
+    - port: 5013
+
+- name: NetworkService
+  project: flilia.services.network\WebApi\WebApi.csproj
+  bindings:
+    - port: 5018
+
+- name: NotificationService
+  project: flilia.services.notification\src\WebApi\WebApi.csproj
+  bindings:
+    - port: 5025
