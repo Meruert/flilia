@@ -22,7 +22,7 @@
   <a href="https://about.flilia.com/">About</a>
 </p>
 
-<hr>
+<hr> 
 
 ## Management process
 Get started with an introduction to our [project management process][project-management-process].
