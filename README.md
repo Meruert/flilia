@@ -6,8 +6,8 @@
 
 <p align="center">
         We connect people, companies and recruiters in a seamless way by creating simple and
-        convenient platform to get the job, help companies and recruiters find and engage
-        the right candidates teams or resource for projects delivery & execution and more.
+        convenient platform to get the job. Our system helps companies and recruiters to find and engage
+        the right candidates, teams or resources for projects delivery & execution.
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@ Get started with an introduction to our [project management process][project-man
 Read through our [contributing guidelines][contributing] to learn about our submission process, coding rules and more.
 
 ## Got a Question or Problem?
-You can start discussion and ask any question related with development in [Developers team][developers-team] 
+You can start discussion and ask any question related to development in [Developers team][developers-team] 
 
 <br>
 
